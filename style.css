@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image{
+
+    background-image: url(./imag/be.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.contant{
+    display: flex;
+    justify-content: space-between;
+}
+.contant h2{
+    color: white;
+    font-family: serif;
+}
+.benner_title h2{
+    font-size: 50px;
+    font-family: Courier, monospace;
+}
+.icon i{
+    font-size: 30px;
+    color: #17A2B8;
+    border:solid #17A2B8 1px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.icon span{
+    color: white;
+    font-size: 22px;
+    font-family: Verdana,Tahoma, sans-serif;
+}
+.icon p{
+    color: white;
+
+}
+.photo{
+    display: flex;
+}
+.icon_2 i{
+    color:rgb(147, 141, 141);
+    font-size: 35px;
+}
+.icon_2 span{
+    color: rgb(147, 141, 141);
+    font-size: 25px;
+    margin-left: 12px;
+}
+.service-section .row{
+    background-color:rgba(130, 123, 123, 0.432);
+    border-radius: 10px;
+}
+.service-section .row h2,p{
+    color: white;
+}
+.company i{
+    font-size: 40px;
+}
+.company span{
+    font-size: 25px;
+}
+.list a{
+    color: white;
+}
+.list b{
+    color: white;
+}
+.icon3 i{
+    font-size: 22px;
+    margin-left: 12px;
+}
